@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="textTitle">Title</string>
+    <string name="textYear">year</string>
+    <string name="textDirector">director</string>
+    <string name="textGenre">genre</string>
+    <string name="textDesription">desription</string>
+    <string name="apply_filter">Apply Filter</string>
+    <string name="clear_filters">Clear filters</string>
+    <string name="filters">Filters</string>
+    <string name="back_activity">Back activity</string>
+    <string name="genres">Genres</string>
+    <string name="years">Years</string>
+    <string name="directors">Directors</string>
+    <string name="checkbox">CheckBox</string>
+</resources>
