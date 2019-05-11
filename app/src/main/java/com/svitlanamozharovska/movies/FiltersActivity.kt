@@ -37,14 +37,10 @@ class FiltersActivity : AppCompatActivity() {
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         pref = getSharedPreferences(APP_PREFERENCES, MODE_PRIVATE)
 
-        val dataListYears = listOf<String>("All","1954","1957","1972","1974","1975","1990","1993","1994","1997","1998"
-            ,"1999","2001","2002","2003","2008","2014")
-        val dataListDirectors = listOf<String>("All","Akira Kurosawa","Christopher Nolan","David Fincher","Fernando Meirelles"
-            ,"Francis Ford Coppola","Frank Darabont","Martin Scorsese","Milos Forman","Peter Jackson","Quentin Tarantino"
-            ,"Robert Zemeckis","Roberto Benigni","Sidney Lumet","Steven Spielberg")
-        val dataListGenres = listOf<String>("All","Action","Adventure","Biography","Comedy","Crime","Drama","Fantasy"
-            ,"History","Romance","Sci-Fi","War")
-
+        val filtersName = FiltersName()
+        val dataListYears = filtersName.years
+        val dataListDirectors = filtersName.directors
+        val dataListGenres = filtersName.genres
 
 
         button = findViewById(R.id.apply_filter_button)
