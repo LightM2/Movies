@@ -21,15 +21,11 @@ class AdapterForMain2(private var dataList: List<String>, private val context: C
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val dataModel= dataList[position]
         holder.filtersText.text = dataModel
-        /*holder.filtersButton.setOnClickListener{
-            Log.d("Movies","clear")
-        }*/
 
     }
 
 
     class ViewHolder(itemLayoutView: View) : RecyclerView.ViewHolder(itemLayoutView) {
-        /*var filtersButton:ImageButton = itemLayoutView.findViewById(R.id.imageButton)*/
         var filtersText:TextView = itemLayoutView.findViewById(R.id.textView)
 
     }
