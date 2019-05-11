@@ -15,7 +15,8 @@
                     android:text="@string/genres"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" android:id="@+id/textViewGenres"
-                    android:textColor="@android:color/black" android:textSize="14sp"/>
+                    android:textColor="@android:color/black" android:textSize="18sp"
+                    android:textStyle="bold"/>
             <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recyclerviewGenres"
                     android:layout_width="match_parent"
@@ -23,8 +24,9 @@
             <TextView
                     android:text="@string/years"
                     android:layout_width="match_parent"
-                    android:textColor="@android:color/black" android:textSize="14sp"
-                    android:layout_height="wrap_content" android:id="@+id/textViewYears"/>
+                    android:textColor="@android:color/black" android:textSize="18sp"
+                    android:layout_height="wrap_content" android:id="@+id/textViewYears"
+                    android:textStyle="bold"/>
             <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recyclerviewYears"
                     android:layout_width="match_parent"
@@ -32,8 +34,9 @@
             <TextView
                     android:text="@string/directors"
                     android:layout_width="match_parent"
-                    android:textColor="@android:color/black" android:textSize="14sp"
-                    android:layout_height="wrap_content" android:id="@+id/textViewDirectors"/>
+                    android:textColor="@android:color/black" android:textSize="18sp"
+                    android:layout_height="wrap_content" android:id="@+id/textViewDirectors"
+                    android:textStyle="bold"/>
             <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recyclerviewDirectors"
                     android:layout_width="match_parent"

@@ -8,10 +8,12 @@
             android:text="@string/filters"
             android:textColor="@android:color/black" android:textSize="14sp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/textView" android:layout_weight="1"/>
-    <ImageButton
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:id="@+id/textView" android:layout_weight="1"/>
+    <!--<ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" app:srcCompat="@drawable/ic_clear_green" android:id="@+id/imageButton"
 
-            android:layout_weight="1" android:background="#FFFFFF"/>
+            android:layout_weight="1" android:background="#FFFFFF"/>-->
 </LinearLayout>
